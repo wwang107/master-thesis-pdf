@@ -53,7 +53,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {4.5}{\ignorespaces Data augmentation for COCO Dataset\relax }}{30}{figure.caption.34}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.6}{\ignorespaces (left) keypoints from one view (right) correspond epiploar line and the same keypoints in other view. Note that epiploar line pass through the same keypoints in different views, verifying the camera projection matrix is updated correctly\relax }}{31}{figure.caption.35}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces (left) keypoints from one view (right) correspond epiploar lines and the same keypoints in other view. Note that epiploar lines pass through the same keypoints in different views, verifying the camera projection matrix is updated correctly.\relax }}{31}{figure.caption.35}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
