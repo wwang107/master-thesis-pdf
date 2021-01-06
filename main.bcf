@@ -2436,8 +2436,16 @@
     <bcf:citekey order="62">multiviewpose</bcf:citekey>
     <bcf:citekey order="63">pavllo:videopose3d:2019</bcf:citekey>
     <bcf:citekey order="64">tanke2019iterative</bcf:citekey>
-    <bcf:citekey order="65">latex</bcf:citekey>
-    <bcf:citekey order="66">latex</bcf:citekey>
+    <bcf:citekey order="65">coco</bcf:citekey>
+    <bcf:citekey order="66">cmu-panoptic</bcf:citekey>
+    <bcf:citekey order="67">cmu-panoptic</bcf:citekey>
+    <bcf:citekey order="68">cmu-panoptic</bcf:citekey>
+    <bcf:citekey order="69">voxelpose</bcf:citekey>
+    <bcf:citekey order="69">Chen_2020_CVPR</bcf:citekey>
+    <bcf:citekey order="69">20204DAssociation</bcf:citekey>
+    <bcf:citekey order="69">iskakov2019learnable</bcf:citekey>
+    <bcf:citekey order="70">latex</bcf:citekey>
+    <bcf:citekey order="71">latex</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

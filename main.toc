@@ -59,42 +59,54 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2.2}Multiple Views}{20}{subsection.3.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Temporal Fusion}{21}{section.3.3}%
+\contentsline {section}{\numberline {3.3}Temporal Fusion}{20}{section.3.3}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.4}Brief Conclusion}{21}{section.3.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Multi-view Fusion Module and Fusion Network}{22}{chapter.4}%
+\contentsline {chapter}{\numberline {4}Datasets}{22}{chapter.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Backbone Module: ResNets}{22}{section.4.1}%
+\contentsline {section}{\numberline {4.1}COCO 2017 Keypoint Dataset}{22}{section.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Fusion Module: Epipolar Sampler}{22}{section.4.2}%
+\contentsline {subsection}{\numberline {4.1.1}Annotation Format}{22}{subsection.4.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Fusion Network: U-Nets}{22}{section.4.3}%
+\contentsline {subsubsection}{\nonumberline Person Annotation}{24}{subsubsection*.27}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Datasets}{23}{chapter.5}%
+\contentsline {subsection}{\numberline {4.1.2}Joint Heatmaps}{27}{subsection.4.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}COCO 2017 Keypoint Dataset}{23}{section.5.1}%
+\contentsline {section}{\numberline {4.2}CMU Panoptic Dataset}{27}{section.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}CMU Panoptic Dataset}{23}{section.5.2}%
+\contentsline {subsection}{\numberline {4.2.1}Annotation Format}{27}{subsection.4.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Data Augmentation}{23}{section.5.3}%
+\contentsline {section}{\numberline {4.3}Data Augmentation}{28}{section.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Experiments}{24}{chapter.6}%
+\contentsline {subsection}{\numberline {4.3.1}Image Augmentation}{28}{subsection.4.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Section}{24}{section.6.1}%
+\contentsline {subsection}{\numberline {4.3.2}Joint Augmentation}{29}{subsection.4.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.1.1}Subsection}{24}{subsection.6.1.1}%
+\contentsline {chapter}{\numberline {5}Multi-view Fusion Module and Fusion Network}{32}{chapter.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Conclusion}{26}{chapter.7}%
+\contentsline {section}{\numberline {5.1}Backbone Module: ResNets}{32}{section.5.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.1}Section}{26}{section.7.1}%
+\contentsline {section}{\numberline {5.2}Fusion Module: Epipolar Sampler}{32}{section.5.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.1.1}Subsection}{26}{subsection.7.1.1}%
+\contentsline {section}{\numberline {5.3}Fusion Network: U-Nets}{32}{section.5.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline List of Figures}{28}{chapter*.33}%
+\contentsline {chapter}{\numberline {6}Experiments}{33}{chapter.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline List of Tables}{31}{chapter*.34}%
+\contentsline {section}{\numberline {6.1}Section}{33}{section.6.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Bibliography}{32}{chapter*.35}%
+\contentsline {subsection}{\numberline {6.1.1}Subsection}{33}{subsection.6.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {7}Conclusion}{35}{chapter.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.1}Section}{35}{section.7.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.1.1}Subsection}{35}{subsection.7.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\nonumberline List of Figures}{37}{chapter*.44}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\nonumberline List of Tables}{40}{chapter*.45}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\nonumberline Bibliography}{41}{chapter*.46}%
 \defcounter {refsection}{0}\relax 
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

@@ -1,19 +1,19 @@
 [0] Config.pm:312> INFO - This is Biber 2.15
 [0] Config.pm:315> INFO - Logfile is 'main.blg'
-[63] biber:330> INFO - === Wed Dec 30, 2020, 15:32:14
-[75] Biber.pm:415> INFO - Reading 'main.bcf'
-[138] Biber.pm:952> INFO - Found 30 citekeys in bib section 0
-[148] Biber.pm:4334> INFO - Processing section 0
-[156] Biber.pm:4523> INFO - Looking for bibtex format file 'bibliography.bib' for section 0
-[157] bibtex.pm:1682> INFO - LaTeX decoding ...
-[173] bibtex.pm:1494> INFO - Found BibTeX data source 'bibliography.bib'
-[218] Utils.pm:395> WARN - year field 'In Press' in entry '20163DPictorial' is not an integer - this will probably not sort properly.
-[237] Utils.pm:395> WARN - month field 'June' in entry 'Chen_2020_CVPR' is not an integer - this will probably not sort properly.
-[353] Utils.pm:395> WARN - I didn't find a database entry for 'latex' (section 0)
-[378] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[378] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[378] Biber.pm:4162> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[378] Biber.pm:4168> INFO - No sort tailoring available for locale 'en-US'
-[393] bbl.pm:651> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[412] bbl.pm:754> INFO - Output to main.bbl
-[412] Biber.pm:128> INFO - WARNINGS: 3
+[63] biber:330> INFO - === Sat Jan  2, 2021, 15:47:42
+[77] Biber.pm:415> INFO - Reading 'main.bcf'
+[145] Biber.pm:952> INFO - Found 32 citekeys in bib section 0
+[157] Biber.pm:4334> INFO - Processing section 0
+[170] Biber.pm:4523> INFO - Looking for bibtex format file 'bibliography.bib' for section 0
+[172] bibtex.pm:1682> INFO - LaTeX decoding ...
+[192] bibtex.pm:1494> INFO - Found BibTeX data source 'bibliography.bib'
+[244] Utils.pm:395> WARN - year field 'In Press' in entry '20163DPictorial' is not an integer - this will probably not sort properly.
+[265] Utils.pm:395> WARN - month field 'June' in entry 'Chen_2020_CVPR' is not an integer - this will probably not sort properly.
+[412] Utils.pm:395> WARN - I didn't find a database entry for 'latex' (section 0)
+[442] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[442] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[442] Biber.pm:4162> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[442] Biber.pm:4168> INFO - No sort tailoring available for locale 'en-US'
+[460] bbl.pm:651> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[483] bbl.pm:754> INFO - Output to main.bbl
+[483] Biber.pm:128> INFO - WARNINGS: 3

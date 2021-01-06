@@ -37,29 +37,41 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Overview of the \cite {dong2019fast} approach. (a), an off-the-shelf human pose detector is used to produce 2D bounding boxes and associated 2D poses in each view, which may be inaccurate and incomplete (b). Then, the detected bounding boxes are clustered. Each resulting cluster includes the bounding boxes of the same person in different views (c). The isolated bounding boxes that have no matches in other views are regarded as false detections and discarded. Finally, the 3D pose of each person is reconstructed from the corresponding bounding boxes and associated 2D poses (d).\relax }}{19}{figure.caption.22}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.3}{\ignorespaces 2D and 3D correspondence affinity measurments in \cite {Chen_2020_CVPR}. Geometric affinity measurement. (a) 2D correspondence is computed within the same camera. (b) 3D correspondence is measured between the predicted location and the projected line in 3-space.\relax }}{19}{figure.caption.23}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces 2D and 3D correspondence affinity measurments in \cite {Chen_2020_CVPR}. (a) 2D correspondence is computed within the same camera. (b) 3D correspondence is measured between the predicted location and the projected line in 3-space.\relax }}{19}{figure.caption.23}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Overview of the \cite {voxelpose} approach. : (a) it first estimate 2D pose heatmaps for all views; then, (b) it warps the heatmaps to a common 3D space and construct a feature volume which is fed into a Cuboid Proposal Network to localize all people instances; (c) for each proposal, we construct a finer-grained feature volume and estimate a 3D pose.\relax }}{20}{figure.caption.24}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Overview of the \cite {voxelpose} approach. (a) it first estimate 2D pose heatmaps for all views; then, (b) it warps the heatmaps to a common 3D space and construct a feature volume which is fed into a Cuboid Proposal Network to localize all people instances; (c) for each proposal, it construct a finer-grained feature volume and estimate a 3D pose.\relax }}{21}{figure.caption.24}%
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Overview of 2017 COCO Keypoint. (a) Images with human (b) un-occluded (colored)/occluded (white) joint locations and limb (colored line), where green means left part of the body and red means right part of the body (c) masks for individuals\relax }}{23}{figure.caption.25}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.2}{\ignorespaces COCO provide a reference skeleton (facing toward the reader) that connecting the joints. For our convenience in visualization, we define joints that belong to the left part of the body, colored with red, and to the right part of the body, colored with green.\relax }}{26}{figure.caption.29}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.3}{\ignorespaces (left column) The image with a person class label in COCO annotation and (right column) the joint heatmap $\mathbf {H}_k$. Note that, we merge all $K$ channels of joint heatmap to a single channel, in order to visuaulize compactly\relax }}{26}{figure.caption.30}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.4}{\ignorespaces CMU Panoptic Overview. Note that it does not provide 2D annotation about the visibility of projected 2D joints.\relax }}{29}{figure.caption.32}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Data augmentation for COCO Dataset\relax }}{30}{figure.caption.34}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.6}{\ignorespaces (left) keypoints from one view (right) correspond epiploar line and the same keypoints in other view. Note that epiploar line pass through the same keypoints in different views, verifying the camera projection matrix is updated correctly\relax }}{31}{figure.caption.35}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Example drawing}}{33}{figure.caption.37}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Example drawing}}{24}{figure.caption.26}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Example plot}}{34}{figure.caption.38}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Example plot}}{25}{figure.caption.27}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Example listing}}{25}{figure.caption.28}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Example listing}}{34}{figure.caption.39}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Example drawing}}{26}{figure.caption.30}%
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Example drawing}}{35}{figure.caption.41}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Example plot}}{27}{figure.caption.31}%
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Example plot}}{36}{figure.caption.42}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.3}{\ignorespaces Example listing}}{27}{figure.caption.32}%
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Example listing}}{36}{figure.caption.43}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 

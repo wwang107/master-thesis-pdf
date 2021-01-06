@@ -748,12 +748,12 @@
            given={Bin},
            giveni={B\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=7c3e7a7d9816c833c4d11cce8583b2cf}{%
+        {{un=1,uniquepart=given,hash=7c3e7a7d9816c833c4d11cce8583b2cf}{%
            family={Liu},
            familyi={L\bibinitperiod},
            given={Dong},
            giveni={D\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
         {{un=1,uniquepart=given,hash=06b47d0dcf324aeafa35d1a8666637ba}{%
            family={Wang},
            familyi={W\bibinitperiod},
@@ -1054,8 +1054,8 @@
       \strng{authorbibnamehash}{67f0c950e79137e854d18fa1733f884d}
       \strng{authornamehash}{715c2e7f94c186af37cfe638c2b80a16}
       \strng{authorfullhash}{67f0c950e79137e854d18fa1733f884d}
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{Cascaded Pyramid Network for Multi-Person Pose Estimation}}
@@ -1164,8 +1164,8 @@
       \strng{authorbibnamehash}{5761ab0accd313f3762e58fba6c1243d}
       \strng{authornamehash}{5761ab0accd313f3762e58fba6c1243d}
       \strng{authorfullhash}{5761ab0accd313f3762e58fba6c1243d}
-      \field{sortinit}{4}
-      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{CVPR}
@@ -1205,8 +1205,8 @@
       \strng{authorbibnamehash}{8756bbfe1b734083b8354e0d6913a9f5}
       \strng{authornamehash}{8756bbfe1b734083b8354e0d6913a9f5}
       \strng{authorfullhash}{8756bbfe1b734083b8354e0d6913a9f5}
-      \field{sortinit}{4}
-      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{3D human pose estimation in video with temporal convolutions and semi-supervised training}
@@ -1233,13 +1233,149 @@
       \strng{authorbibnamehash}{7ac8332d1afd0ae3d76cc40c81a8caaa}
       \strng{authornamehash}{7ac8332d1afd0ae3d76cc40c81a8caaa}
       \strng{authorfullhash}{7ac8332d1afd0ae3d76cc40c81a8caaa}
-      \field{sortinit}{5}
-      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{German Conference on Pattern Recognition}
       \field{title}{Iterative Greedy Matching for 3D Human Pose Tracking from Multiple Views}
       \field{year}{2019}
+    \endentry
+    \entry{coco}{article}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=08f925fe4692d130a1d7cb7d94483351}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Tsung-Yi},
+           giveni={T\bibinithyphendelim Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d980bc6930f008a0fb5fa667785f2309}{%
+           family={Maire},
+           familyi={M\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=044d1db5259b74e4975282f599d8e767}{%
+           family={Belongie},
+           familyi={B\bibinitperiod},
+           given={Serge},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=797fc3624ba315db58eef7279ace5bf3}{%
+           family={Hays},
+           familyi={H\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e52876f830a8a20786ff3e4d7dd6f083}{%
+           family={Perona},
+           familyi={P\bibinitperiod},
+           given={Pietro},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aedcd3831845183e070aef16857d83ea}{%
+           family={Ramanan},
+           familyi={R\bibinitperiod},
+           given={Deva},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ecd149fdcb3e0503881d49e545744c3d}{%
+           family={Dollár},
+           familyi={D\bibinitperiod},
+           given={Piotr},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4ad22da78425c5963acd5a8d848ebd73}{%
+           family={Zitnick},
+           familyi={Z\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{72b744e79c74738c617fd08b4f3d7e36}
+      \strng{fullhash}{deb4e24a27f0a1c2a0587c3a9f76d6ea}
+      \strng{bibnamehash}{deb4e24a27f0a1c2a0587c3a9f76d6ea}
+      \strng{authorbibnamehash}{deb4e24a27f0a1c2a0587c3a9f76d6ea}
+      \strng{authornamehash}{72b744e79c74738c617fd08b4f3d7e36}
+      \strng{authorfullhash}{deb4e24a27f0a1c2a0587c3a9f76d6ea}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{05}
+      \field{title}{Microsoft COCO: Common Objects in Context}
+      \field{year}{2014}
+    \endentry
+    \entry{cmu-panoptic}{inproceedings}{}
+      \name{author}{9}{}{%
+        {{un=0,uniquepart=base,hash=e58101cdbab2bf36acfe947dd4201a1c}{%
+           family={Joo},
+           familyi={J\bibinitperiod},
+           given={Hanbyul},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=33104fd0f457a2964af323817a9d2016}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Hao},
+           giveni={H\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=0865a871b8dfc6e5bc59dcd39cf3b3bf}{%
+           family={Tan},
+           familyi={T\bibinitperiod},
+           given={Lei},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b4cc71f66ccd6f55b877380a708a101e}{%
+           family={Gui},
+           familyi={G\bibinitperiod},
+           given={Lin},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=88c7f25f8c802efc9a64ce6c8375aab6}{%
+           family={Nabbe},
+           familyi={N\bibinitperiod},
+           given={Bart},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=de7691b01181d3d91375d999b474c55f}{%
+           family={Matthews},
+           familyi={M\bibinitperiod},
+           given={Iain},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=45496c6a7530cfbfb4f3218a2602b77e}{%
+           family={Kanade},
+           familyi={K\bibinitperiod},
+           given={Takeo},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5a4589fa248159d306ff82787f49fa72}{%
+           family={Nobuhara},
+           familyi={N\bibinitperiod},
+           given={Shohei},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=eec556189169ec6c7325cc7a804cbc02}{%
+           family={Sheikh},
+           familyi={S\bibinitperiod},
+           given={Yaser},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0bdfa296397828b55dffaa28834adfe9}
+      \strng{fullhash}{f19d52aaa7ff21a6a260b10bbb68212e}
+      \strng{bibnamehash}{f19d52aaa7ff21a6a260b10bbb68212e}
+      \strng{authorbibnamehash}{f19d52aaa7ff21a6a260b10bbb68212e}
+      \strng{authornamehash}{0bdfa296397828b55dffaa28834adfe9}
+      \strng{authorfullhash}{f19d52aaa7ff21a6a260b10bbb68212e}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{ICCV}
+      \field{title}{Panoptic Studio: A Massively Multiview System for Social Motion Capture}
+      \field{year}{2015}
     \endentry
   \enddatalist
   \missing{latex}

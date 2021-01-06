@@ -264,8 +264,8 @@
 \@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.1}Single View}{18}{subsection.3.2.1}\protected@file@percent }
 \@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces Overview of the \cite {dong2019fast} approach. (a), an off-the-shelf human pose detector is used to produce 2D bounding boxes and associated 2D poses in each view, which may be inaccurate and incomplete (b). Then, the detected bounding boxes are clustered. Each resulting cluster includes the bounding boxes of the same person in different views (c). The isolated bounding boxes that have no matches in other views are regarded as false detections and discarded. Finally, the 3D pose of each person is reconstructed from the corresponding bounding boxes and associated 2D poses (d).\relax }}{19}{figure.caption.22}\protected@file@percent }
 \newlabel{fig:ch3-dong-fast-cross-view-matching}{{3.2}{19}{Overview of the \cite {dong2019fast} approach. (a), an off-the-shelf human pose detector is used to produce 2D bounding boxes and associated 2D poses in each view, which may be inaccurate and incomplete (b). Then, the detected bounding boxes are clustered. Each resulting cluster includes the bounding boxes of the same person in different views (c). The isolated bounding boxes that have no matches in other views are regarded as false detections and discarded. Finally, the 3D pose of each person is reconstructed from the corresponding bounding boxes and associated 2D poses (d).\relax }{figure.caption.22}{}}
-\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {3.3}{\ignorespaces 2D and 3D correspondence affinity measurments in \cite {Chen_2020_CVPR}. Geometric affinity measurement. (a) 2D correspondence is computed within the same camera. (b) 3D correspondence is measured between the predicted location and the projected line in 3-space.\relax }}{19}{figure.caption.23}\protected@file@percent }
-\newlabel{fig:ch3-cheng}{{3.3}{19}{2D and 3D correspondence affinity measurments in \cite {Chen_2020_CVPR}. Geometric affinity measurement. (a) 2D correspondence is computed within the same camera. (b) 3D correspondence is measured between the predicted location and the projected line in 3-space.\relax }{figure.caption.23}{}}
+\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {3.3}{\ignorespaces 2D and 3D correspondence affinity measurments in \cite {Chen_2020_CVPR}. (a) 2D correspondence is computed within the same camera. (b) 3D correspondence is measured between the predicted location and the projected line in 3-space.\relax }}{19}{figure.caption.23}\protected@file@percent }
+\newlabel{fig:ch3-cheng}{{3.3}{19}{2D and 3D correspondence affinity measurments in \cite {Chen_2020_CVPR}. (a) 2D correspondence is computed within the same camera. (b) 3D correspondence is measured between the predicted location and the projected line in 3-space.\relax }{figure.caption.23}{}}
 \BKM@entry{id=27,dest={73756273656374696F6E2E332E322E32},srcline={42}}{4D756C7469706C65205669657773}
 \abx@aux@cite{iskakov2019learnable}
 \abx@aux@segm{0}{0}{iskakov2019learnable}
@@ -296,10 +296,9 @@
 \abx@aux@segm{0}{0}{pavllo:videopose3d:2019}
 \abx@aux@cite{pavllo:videopose3d:2019}
 \abx@aux@segm{0}{0}{pavllo:videopose3d:2019}
-\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {3.4}{\ignorespaces Overview of the \cite {voxelpose} approach. : (a) it first estimate 2D pose heatmaps for all views; then, (b) it warps the heatmaps to a common 3D space and construct a feature volume which is fed into a Cuboid Proposal Network to localize all people instances; (c) for each proposal, we construct a finer-grained feature volume and estimate a 3D pose.\relax }}{20}{figure.caption.24}\protected@file@percent }
-\newlabel{fig:ch3-overview-voxelpose}{{3.4}{20}{Overview of the \cite {voxelpose} approach. : (a) it first estimate 2D pose heatmaps for all views; then, (b) it warps the heatmaps to a common 3D space and construct a feature volume which is fed into a Cuboid Proposal Network to localize all people instances; (c) for each proposal, we construct a finer-grained feature volume and estimate a 3D pose.\relax }{figure.caption.24}{}}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.2}Multiple Views}{20}{subsection.3.2.2}\protected@file@percent }
 \BKM@entry{id=29,dest={73656374696F6E2E332E34},srcline={56}}{427269656620436F6E636C7573696F6E}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.2}Multiple Views}{20}{subsection.3.2.2}\protected@file@percent }
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {3.3}Temporal Fusion}{20}{section.3.3}\protected@file@percent }
 \abx@aux@cite{epipolartransformers}
 \abx@aux@segm{0}{0}{epipolartransformers}
 \abx@aux@cite{multiviewpose}
@@ -308,82 +307,136 @@
 \abx@aux@segm{0}{0}{pavllo:videopose3d:2019}
 \abx@aux@cite{tanke2019iterative}
 \abx@aux@segm{0}{0}{tanke2019iterative}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {3.3}Temporal Fusion}{21}{section.3.3}\protected@file@percent }
+\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {3.4}{\ignorespaces Overview of the \cite {voxelpose} approach. (a) it first estimate 2D pose heatmaps for all views; then, (b) it warps the heatmaps to a common 3D space and construct a feature volume which is fed into a Cuboid Proposal Network to localize all people instances; (c) for each proposal, it construct a finer-grained feature volume and estimate a 3D pose.\relax }}{21}{figure.caption.24}\protected@file@percent }
+\newlabel{fig:ch3-overview-voxelpose}{{3.4}{21}{Overview of the \cite {voxelpose} approach. (a) it first estimate 2D pose heatmaps for all views; then, (b) it warps the heatmaps to a common 3D space and construct a feature volume which is fed into a Cuboid Proposal Network to localize all people instances; (c) for each proposal, it construct a finer-grained feature volume and estimate a 3D pose.\relax }{figure.caption.24}{}}
 \@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {3.4}Brief Conclusion}{21}{section.3.4}\protected@file@percent }
-\BKM@entry{id=30,dest={636861707465722E34},srcline={1}}{4D756C74692D7669657720467573696F6E204D6F64756C6520616E6420467573696F6E204E6574776F726B}
-\BKM@entry{id=31,dest={73656374696F6E2E342E31},srcline={3}}{4261636B626F6E65204D6F64756C653A205265734E657473}
-\BKM@entry{id=32,dest={73656374696F6E2E342E32},srcline={4}}{467573696F6E204D6F64756C653A20457069706F6C61722053616D706C6572}
-\BKM@entry{id=33,dest={73656374696F6E2E342E33},srcline={5}}{467573696F6E204E6574776F726B3A20552D4E657473}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {chapter}{\numberline {4}Multi-view Fusion Module and Fusion Network}{22}{chapter.4}\protected@file@percent }
+\BKM@entry{id=30,dest={636861707465722E34},srcline={1}}{4461746173657473}
+\abx@aux@cite{coco}
+\abx@aux@segm{0}{0}{coco}
+\abx@aux@cite{cmu-panoptic}
+\abx@aux@segm{0}{0}{cmu-panoptic}
+\BKM@entry{id=31,dest={73656374696F6E2E342E31},srcline={3}}{434F434F2032303137204B6579706F696E742044617461736574}
+\BKM@entry{id=32,dest={73756273656374696F6E2E342E312E31},srcline={11}}{416E6E6F746174696F6E20466F726D6174}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {chapter}{\numberline {4}Datasets}{22}{chapter.4}\protected@file@percent }
 \@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\defcounter {refsection}{0}\relax }\@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{lol}{\defcounter {refsection}{0}\relax }\@writefile{lol}{\addvspace {10\p@ }}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {4.1}Backbone Module: ResNets}{22}{section.4.1}\protected@file@percent }
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {4.2}Fusion Module: Epipolar Sampler}{22}{section.4.2}\protected@file@percent }
-\newlabel{ch4:fusion-module}{{4.2}{22}{Fusion Module: Epipolar Sampler}{section.4.2}{}}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {4.3}Fusion Network: U-Nets}{22}{section.4.3}\protected@file@percent }
-\BKM@entry{id=34,dest={636861707465722E35},srcline={1}}{4461746173657473}
-\BKM@entry{id=35,dest={73656374696F6E2E352E31},srcline={3}}{434F434F2032303137204B6579706F696E742044617461736574}
-\BKM@entry{id=36,dest={73656374696F6E2E352E32},srcline={4}}{434D552050616E6F707469632044617461736574}
-\BKM@entry{id=37,dest={73656374696F6E2E352E33},srcline={5}}{44617461204175676D656E746174696F6E}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {chapter}{\numberline {5}Datasets}{23}{chapter.5}\protected@file@percent }
+\newlabel{chapter:dataset}{{4}{22}{Datasets}{chapter.4}{}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {4.1}COCO 2017 Keypoint Dataset}{22}{section.4.1}\protected@file@percent }
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.1}Annotation Format}{22}{subsection.4.1.1}\protected@file@percent }
+\@writefile{lol}{\defcounter {refsection}{0}\relax }\@writefile{lol}{\contentsline {lstlisting}{\numberline {4.1}Overview of JSON file in COCO 2017 Dataset}{22}{lstlisting.4.1}\protected@file@percent }
+\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces Overview of 2017 COCO Keypoint. (a) Images with human (b) un-occluded (colored)/occluded (white) joint locations and limb (colored line), where green means left part of the body and red means right part of the body (c) masks for individuals\relax }}{23}{figure.caption.25}\protected@file@percent }
+\newlabel{fig:ch5-coco-overview}{{4.1}{23}{Overview of 2017 COCO Keypoint. (a) Images with human (b) un-occluded (colored)/occluded (white) joint locations and limb (colored line), where green means left part of the body and red means right part of the body (c) masks for individuals\relax }{figure.caption.25}{}}
+\BKM@entry{id=33,dest={73756273656374696F6E2E342E312E32},srcline={132}}{4A6F696E7420486561746D617073}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsubsection}{\nonumberline Person Annotation}{24}{subsubsection*.27}\protected@file@percent }
+\newlabel{lst:person-annotation}{{4.2}{24}{Overview of Person Class Annotation}{lstlisting.4.2}{}}
+\@writefile{lol}{\defcounter {refsection}{0}\relax }\@writefile{lol}{\contentsline {lstlisting}{\numberline {4.2}Overview of Person Class Annotation}{24}{lstlisting.4.2}\protected@file@percent }
+\newlabel{eq:joint-definition}{{4.1}{24}{Person Annotation}{equation.4.1.1}{}}
+\@writefile{lot}{\defcounter {refsection}{0}\relax }\@writefile{lot}{\contentsline {table}{\numberline {4.1}{\ignorespaces COCO keypoints and limb definition}}{25}{table.caption.28}\protected@file@percent }
+\newlabel{ch5:coco-definition}{{4.1}{25}{COCO keypoints and limb definition}{table.caption.28}{}}
+\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {4.2}{\ignorespaces COCO provide a reference skeleton (facing toward the reader) that connecting the joints. For our convenience in visualization, we define joints that belong to the left part of the body, colored with red, and to the right part of the body, colored with green.\relax }}{26}{figure.caption.29}\protected@file@percent }
+\newlabel{fig:ch5-coco-skeleton}{{4.2}{26}{COCO provide a reference skeleton (facing toward the reader) that connecting the joints. For our convenience in visualization, we define joints that belong to the left part of the body, colored with red, and to the right part of the body, colored with green.\relax }{figure.caption.29}{}}
+\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {4.3}{\ignorespaces (left column) The image with a person class label in COCO annotation and (right column) the joint heatmap $\mathbf  {H}_k$. Note that, we merge all $K$ channels of joint heatmap to a single channel, in order to visuaulize compactly\relax }}{26}{figure.caption.30}\protected@file@percent }
+\newlabel{fig:ch5-coco-heatmap}{{4.3}{26}{(left column) The image with a person class label in COCO annotation and (right column) the joint heatmap $\mathbf {H}_k$. Note that, we merge all $K$ channels of joint heatmap to a single channel, in order to visuaulize compactly\relax }{figure.caption.30}{}}
+\BKM@entry{id=34,dest={73656374696F6E2E342E32},srcline={157}}{434D552050616E6F707469632044617461736574}
+\abx@aux@cite{cmu-panoptic}
+\abx@aux@segm{0}{0}{cmu-panoptic}
+\abx@aux@cite{cmu-panoptic}
+\abx@aux@segm{0}{0}{cmu-panoptic}
+\abx@aux@cite{voxelpose}
+\abx@aux@segm{0}{0}{voxelpose}
+\abx@aux@cite{Chen_2020_CVPR}
+\abx@aux@segm{0}{0}{Chen_2020_CVPR}
+\abx@aux@cite{20204DAssociation}
+\abx@aux@segm{0}{0}{20204DAssociation}
+\abx@aux@cite{iskakov2019learnable}
+\abx@aux@segm{0}{0}{iskakov2019learnable}
+\BKM@entry{id=35,dest={73756273656374696F6E2E342E322E31},srcline={160}}{416E6E6F746174696F6E20466F726D6174}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.2}Joint Heatmaps}{27}{subsection.4.1.2}\protected@file@percent }
+\newlabel{eq:joint-definition}{{4.2}{27}{Joint Heatmaps}{equation.4.1.2}{}}
+\newlabel{eq:joint-definition}{{4.3}{27}{Joint Heatmaps}{equation.4.1.3}{}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {4.2}CMU Panoptic Dataset}{27}{section.4.2}\protected@file@percent }
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.1}Annotation Format}{27}{subsection.4.2.1}\protected@file@percent }
+\BKM@entry{id=36,dest={73656374696F6E2E342E33},srcline={196}}{44617461204175676D656E746174696F6E}
+\BKM@entry{id=37,dest={73756273656374696F6E2E342E332E31},srcline={198}}{496D616765204175676D656E746174696F6E}
+\newlabel{lst:cmu-camera-matrix}{{4.3}{28}{Overview of Camera Annotation}{lstlisting.4.3}{}}
+\@writefile{lol}{\defcounter {refsection}{0}\relax }\@writefile{lol}{\contentsline {lstlisting}{\numberline {4.3}Overview of Camera Annotation}{28}{lstlisting.4.3}\protected@file@percent }
+\@writefile{lot}{\defcounter {refsection}{0}\relax }\@writefile{lot}{\contentsline {table}{\numberline {4.2}{\ignorespaces COCO keypoints and limb definition}}{28}{table.caption.31}\protected@file@percent }
+\newlabel{ch5:coco-definition}{{4.2}{28}{COCO keypoints and limb definition}{table.caption.31}{}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {4.3}Data Augmentation}{28}{section.4.3}\protected@file@percent }
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.1}Image Augmentation}{28}{subsection.4.3.1}\protected@file@percent }
+\BKM@entry{id=38,dest={73756273656374696F6E2E342E332E32},srcline={246}}{4A6F696E74204175676D656E746174696F6E}
+\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {4.4}{\ignorespaces CMU Panoptic Overview. Note that it does not provide 2D annotation about the visibility of projected 2D joints.\relax }}{29}{figure.caption.32}\protected@file@percent }
+\newlabel{fig:ch5-cmu-multiview}{{4.4}{29}{CMU Panoptic Overview. Note that it does not provide 2D annotation about the visibility of projected 2D joints.\relax }{figure.caption.32}{}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.2}Joint Augmentation}{29}{subsection.4.3.2}\protected@file@percent }
+\@writefile{lot}{\defcounter {refsection}{0}\relax }\@writefile{lot}{\contentsline {table}{\numberline {4.3}{\ignorespaces Augmentations used in training}}{30}{table.caption.33}\protected@file@percent }
+\newlabel{ch5:coco-definition}{{4.3}{30}{Augmentations used in training}{table.caption.33}{}}
+\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {4.5}{\ignorespaces Data augmentation for COCO Dataset\relax }}{30}{figure.caption.34}\protected@file@percent }
+\newlabel{fig:ch5-coco-augmentation}{{4.5}{30}{Data augmentation for COCO Dataset\relax }{figure.caption.34}{}}
+\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {4.6}{\ignorespaces (left) keypoints from one view (right) correspond epiploar line and the same keypoints in other view. Note that epiploar line pass through the same keypoints in different views, verifying the camera projection matrix is updated correctly\relax }}{31}{figure.caption.35}\protected@file@percent }
+\newlabel{fig:ch5-cmu-epipolar-line}{{4.6}{31}{(left) keypoints from one view (right) correspond epiploar line and the same keypoints in other view. Note that epiploar line pass through the same keypoints in different views, verifying the camera projection matrix is updated correctly\relax }{figure.caption.35}{}}
+\BKM@entry{id=39,dest={636861707465722E35},srcline={1}}{4D756C74692D7669657720467573696F6E204D6F64756C6520616E6420467573696F6E204E6574776F726B}
+\BKM@entry{id=40,dest={73656374696F6E2E352E31},srcline={3}}{4261636B626F6E65204D6F64756C653A205265734E657473}
+\BKM@entry{id=41,dest={73656374696F6E2E352E32},srcline={4}}{467573696F6E204D6F64756C653A20457069706F6C61722053616D706C6572}
+\BKM@entry{id=42,dest={73656374696F6E2E352E33},srcline={5}}{467573696F6E204E6574776F726B3A20552D4E657473}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {chapter}{\numberline {5}Multi-view Fusion Module and Fusion Network}{32}{chapter.5}\protected@file@percent }
 \@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\defcounter {refsection}{0}\relax }\@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{lol}{\defcounter {refsection}{0}\relax }\@writefile{lol}{\addvspace {10\p@ }}
-\newlabel{chapter:dataset}{{5}{23}{Datasets}{chapter.5}{}}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {5.1}COCO 2017 Keypoint Dataset}{23}{section.5.1}\protected@file@percent }
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {5.2}CMU Panoptic Dataset}{23}{section.5.2}\protected@file@percent }
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {5.3}Data Augmentation}{23}{section.5.3}\protected@file@percent }
-\BKM@entry{id=38,dest={636861707465722E36},srcline={4}}{4578706572696D656E7473}
-\BKM@entry{id=39,dest={73656374696F6E2E362E31},srcline={6}}{53656374696F6E}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {5.1}Backbone Module: ResNets}{32}{section.5.1}\protected@file@percent }
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {5.2}Fusion Module: Epipolar Sampler}{32}{section.5.2}\protected@file@percent }
+\newlabel{ch4:fusion-module}{{5.2}{32}{Fusion Module: Epipolar Sampler}{section.5.2}{}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {5.3}Fusion Network: U-Nets}{32}{section.5.3}\protected@file@percent }
+\BKM@entry{id=43,dest={636861707465722E36},srcline={4}}{4578706572696D656E7473}
+\BKM@entry{id=44,dest={73656374696F6E2E362E31},srcline={6}}{53656374696F6E}
 \abx@aux@cite{latex}
 \abx@aux@segm{0}{0}{latex}
-\BKM@entry{id=40,dest={73756273656374696F6E2E362E312E31},srcline={9}}{53756273656374696F6E}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {chapter}{\numberline {6}Experiments}{24}{chapter.6}\protected@file@percent }
+\BKM@entry{id=45,dest={73756273656374696F6E2E362E312E31},srcline={9}}{53756273656374696F6E}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {chapter}{\numberline {6}Experiments}{33}{chapter.6}\protected@file@percent }
 \@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\defcounter {refsection}{0}\relax }\@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{lol}{\defcounter {refsection}{0}\relax }\@writefile{lol}{\addvspace {10\p@ }}
-\newlabel{chapter:introduction}{{6}{24}{Experiments}{chapter.6}{}}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {6.1}Section}{24}{section.6.1}\protected@file@percent }
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {6.1.1}Subsection}{24}{subsection.6.1.1}\protected@file@percent }
-\@writefile{lot}{\defcounter {refsection}{0}\relax }\@writefile{lot}{\contentsline {table}{\numberline {6.1}{\ignorespaces Example table}}{24}{table.caption.25}\protected@file@percent }
-\newlabel{tab:sample}{{6.1}{24}{Example table}{table.caption.25}{}}
-\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {6.1}{\ignorespaces Example drawing}}{24}{figure.caption.26}\protected@file@percent }
-\newlabel{fig:sample-drawing}{{6.1}{24}{Example drawing}{figure.caption.26}{}}
-\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {6.2}{\ignorespaces Example plot}}{25}{figure.caption.27}\protected@file@percent }
-\newlabel{fig:sample-plot}{{6.2}{25}{Example plot}{figure.caption.27}{}}
-\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {6.3}{\ignorespaces Example listing}}{25}{figure.caption.28}\protected@file@percent }
-\newlabel{fig:sample-listing}{{6.3}{25}{Example listing}{figure.caption.28}{}}
-\BKM@entry{id=41,dest={636861707465722E37},srcline={4}}{436F6E636C7573696F6E}
-\BKM@entry{id=42,dest={73656374696F6E2E372E31},srcline={6}}{53656374696F6E}
+\newlabel{chapter:introduction}{{6}{33}{Experiments}{chapter.6}{}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {6.1}Section}{33}{section.6.1}\protected@file@percent }
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {6.1.1}Subsection}{33}{subsection.6.1.1}\protected@file@percent }
+\@writefile{lot}{\defcounter {refsection}{0}\relax }\@writefile{lot}{\contentsline {table}{\numberline {6.1}{\ignorespaces Example table}}{33}{table.caption.36}\protected@file@percent }
+\newlabel{tab:sample}{{6.1}{33}{Example table}{table.caption.36}{}}
+\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {6.1}{\ignorespaces Example drawing}}{33}{figure.caption.37}\protected@file@percent }
+\newlabel{fig:sample-drawing}{{6.1}{33}{Example drawing}{figure.caption.37}{}}
+\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {6.2}{\ignorespaces Example plot}}{34}{figure.caption.38}\protected@file@percent }
+\newlabel{fig:sample-plot}{{6.2}{34}{Example plot}{figure.caption.38}{}}
+\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {6.3}{\ignorespaces Example listing}}{34}{figure.caption.39}\protected@file@percent }
+\newlabel{fig:sample-listing}{{6.3}{34}{Example listing}{figure.caption.39}{}}
+\BKM@entry{id=46,dest={636861707465722E37},srcline={4}}{436F6E636C7573696F6E}
+\BKM@entry{id=47,dest={73656374696F6E2E372E31},srcline={6}}{53656374696F6E}
 \abx@aux@cite{latex}
 \abx@aux@segm{0}{0}{latex}
-\BKM@entry{id=43,dest={73756273656374696F6E2E372E312E31},srcline={9}}{53756273656374696F6E}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {chapter}{\numberline {7}Conclusion}{26}{chapter.7}\protected@file@percent }
+\BKM@entry{id=48,dest={73756273656374696F6E2E372E312E31},srcline={9}}{53756273656374696F6E}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {chapter}{\numberline {7}Conclusion}{35}{chapter.7}\protected@file@percent }
 \@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\defcounter {refsection}{0}\relax }\@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{lol}{\defcounter {refsection}{0}\relax }\@writefile{lol}{\addvspace {10\p@ }}
-\newlabel{chapter:introduction}{{7}{26}{Conclusion}{chapter.7}{}}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {7.1}Section}{26}{section.7.1}\protected@file@percent }
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {7.1.1}Subsection}{26}{subsection.7.1.1}\protected@file@percent }
-\@writefile{lot}{\defcounter {refsection}{0}\relax }\@writefile{lot}{\contentsline {table}{\numberline {7.1}{\ignorespaces Example table}}{26}{table.caption.29}\protected@file@percent }
-\newlabel{tab:sample}{{7.1}{26}{Example table}{table.caption.29}{}}
-\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {7.1}{\ignorespaces Example drawing}}{26}{figure.caption.30}\protected@file@percent }
-\newlabel{fig:sample-drawing}{{7.1}{26}{Example drawing}{figure.caption.30}{}}
-\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {7.2}{\ignorespaces Example plot}}{27}{figure.caption.31}\protected@file@percent }
-\newlabel{fig:sample-plot}{{7.2}{27}{Example plot}{figure.caption.31}{}}
-\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {7.3}{\ignorespaces Example listing}}{27}{figure.caption.32}\protected@file@percent }
-\newlabel{fig:sample-listing}{{7.3}{27}{Example listing}{figure.caption.32}{}}
-\BKM@entry{id=44,dest={636861707465722A2E3333},srcline={52}}{4C697374206F662046696775726573}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {chapter}{\nonumberline List of Figures}{28}{chapter*.33}\protected@file@percent }
-\BKM@entry{id=45,dest={636861707465722A2E3334},srcline={53}}{4C697374206F66205461626C6573}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {chapter}{\nonumberline List of Tables}{31}{chapter*.34}\protected@file@percent }
-\BKM@entry{id=46,dest={636861707465722A2E3335},srcline={55}}{4269626C696F677261706879}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {chapter}{\nonumberline Bibliography}{32}{chapter*.35}\protected@file@percent }
+\newlabel{chapter:introduction}{{7}{35}{Conclusion}{chapter.7}{}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {7.1}Section}{35}{section.7.1}\protected@file@percent }
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {7.1.1}Subsection}{35}{subsection.7.1.1}\protected@file@percent }
+\@writefile{lot}{\defcounter {refsection}{0}\relax }\@writefile{lot}{\contentsline {table}{\numberline {7.1}{\ignorespaces Example table}}{35}{table.caption.40}\protected@file@percent }
+\newlabel{tab:sample}{{7.1}{35}{Example table}{table.caption.40}{}}
+\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {7.1}{\ignorespaces Example drawing}}{35}{figure.caption.41}\protected@file@percent }
+\newlabel{fig:sample-drawing}{{7.1}{35}{Example drawing}{figure.caption.41}{}}
+\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {7.2}{\ignorespaces Example plot}}{36}{figure.caption.42}\protected@file@percent }
+\newlabel{fig:sample-plot}{{7.2}{36}{Example plot}{figure.caption.42}{}}
+\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {7.3}{\ignorespaces Example listing}}{36}{figure.caption.43}\protected@file@percent }
+\newlabel{fig:sample-listing}{{7.3}{36}{Example listing}{figure.caption.43}{}}
+\BKM@entry{id=49,dest={636861707465722A2E3434},srcline={52}}{4C697374206F662046696775726573}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {chapter}{\nonumberline List of Figures}{37}{chapter*.44}\protected@file@percent }
+\BKM@entry{id=50,dest={636861707465722A2E3435},srcline={53}}{4C697374206F66205461626C6573}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {chapter}{\nonumberline List of Tables}{40}{chapter*.45}\protected@file@percent }
+\BKM@entry{id=51,dest={636861707465722A2E3436},srcline={55}}{4269626C696F677261706879}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {chapter}{\nonumberline Bibliography}{41}{chapter*.46}\protected@file@percent }
 \@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\defcounter {refsection}{0}\relax }\@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{lol}{\defcounter {refsection}{0}\relax }\@writefile{lol}{\addvspace {10\p@ }}
-\blx@aux@read@bbl@mdfivesum{056130D31369D1D75EAE2E1C80CCF6F9}
+\blx@aux@read@bbl@mdfivesum{18FFF4B487FDF365E94038796DFA6D84}
 \abx@aux@refcontextdefaultsdone
 \abx@aux@defaultrefcontext{0}{singleshotmultiperson2018}{none/global//global/global}
 \abx@aux@defaultrefcontext{0}{LCR2019}{none/global//global/global}
@@ -414,6 +467,8 @@
 \abx@aux@defaultrefcontext{0}{julieta2017motion}{none/global//global/global}
 \abx@aux@defaultrefcontext{0}{pavllo:videopose3d:2019}{none/global//global/global}
 \abx@aux@defaultrefcontext{0}{tanke2019iterative}{none/global//global/global}
+\abx@aux@defaultrefcontext{0}{coco}{none/global//global/global}
+\abx@aux@defaultrefcontext{0}{cmu-panoptic}{none/global//global/global}
 \global\@namedef{scr@dte@chapter@lastmaxnumwidth}{9.85492pt}
 \global\@namedef{scr@dte@section@lastmaxnumwidth}{18.0674pt}
 \global\@namedef{scr@dte@subsection@lastmaxnumwidth}{26.27988pt}
@@ -422,4 +477,4 @@
 \@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\providecommand\tocbasic@end@toc@file{}\tocbasic@end@toc@file}
 \@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\providecommand\tocbasic@end@toc@file{}\tocbasic@end@toc@file}
 \@writefile{lot}{\defcounter {refsection}{0}\relax }\@writefile{lot}{\providecommand\tocbasic@end@toc@file{}\tocbasic@end@toc@file}
-\gdef \@abspage@last{40}
+\gdef \@abspage@last{50}
