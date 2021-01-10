@@ -150,7 +150,7 @@ Finally, a joint heatmap $\mathbf{H}_k$ that given $N$ individuals in an image i
 \begin{gather}
 \mathbf{H}_k(\mathbf{x}\mid(\mathbf{x}_k^1, \dots,  \mathbf{x}_k^N)) = 
 \max \left(\mathbf{H}_k^1(\mathbf{x}\mid\mathbf{x}_k^1), \dots, \mathbf{H}_k^N(\mathbf{x}\mid\mathbf{x}_k^N)\right)
-\label{eq:joint-definition}
+\label{eq:joint-heatmap}
 \end{gather}
 , shown in Fig. \ref{fig:ch5-coco-heatmap}.
 
@@ -244,4 +244,4 @@ The coordinates are aligned with the center of pixels rather than the top-left c
 \end{figure}
 
 \subsection{Joint Augmentation}
-We increased the total number of joints from 17 to 55, by interpolating two intermediate joints on each limb defined in \ref{ch5:coco-definition}. The intuition behind this is to use redundancy of joints that our network alleviates the effect of occlusion. These intermediate joints are placed at locations that are 0.1$\times$\textit{limb length} away from both ends of the limb.
+We increased the total number of joints from 17 to 55, by interpolating two intermediate joints on each limb defined in \ref{ch5:coco-definition}. The intuition behind this is to use redundancy of joints to mitigate the effect of occlusion. These intermediate joints are placed at locations that are 0.1$\times$\textit{limb length} away from both ends of the limb.

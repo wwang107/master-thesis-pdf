@@ -2444,8 +2444,10 @@
     <bcf:citekey order="69">Chen_2020_CVPR</bcf:citekey>
     <bcf:citekey order="69">20204DAssociation</bcf:citekey>
     <bcf:citekey order="69">iskakov2019learnable</bcf:citekey>
-    <bcf:citekey order="70">latex</bcf:citekey>
-    <bcf:citekey order="71">latex</bcf:citekey>
+    <bcf:citekey order="70">resnet50</bcf:citekey>
+    <bcf:citekey order="71">xiao2018simple</bcf:citekey>
+    <bcf:citekey order="72">latex</bcf:citekey>
+    <bcf:citekey order="73">latex</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

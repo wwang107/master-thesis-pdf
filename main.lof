@@ -57,21 +57,33 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Overview of our 2D backbone. We train the last convolutional layer of the pretrained ResNet50 with the deconvolutional head together.\relax }}{33}{figure.caption.37}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Illustration of Epipolar Sampler $\mathit {E}$. Image from a view is on the left and the joint heatmap is on the right side. Only nose joint is visualize (a) An occluded nose joint (yellow circle) has low score in view $\mathit {v}$ (b) The corresponding epipolar line in the other view $\mathit {v}'$. The same nose joint (yellow circle) is near the maximum (red circle) of all sampled points (blue circle) on the epipolar line (c) retrieved maximum for every point on view $\mathit {v}$ (d) Output of Epipolar Sampler $\mathit {E}$, by integrate 4 different views.\relax }}{35}{figure.caption.38}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Overview of the baseline model, where the green blocks are 3d convolutional kernels with input channel, (width, height, depth, 2d padding), and output channel. Instead of concatenating, we use residual connections to reduce number of parameters. We also show tensor sizes in parentheses for a sample 5-camera-view input and prediction, where (55, 64, 64, 5) denotes 55 channels, 64 width, 64 height, and 5 different camera views.\relax }}{36}{figure.caption.39}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Overview of the fusion model, where the green blocks are 2d convolutional kernels with input channel, (width, height, 2d padding), and output channel.\relax }}{37}{figure.caption.40}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Our complete frame work covers both time and spatial domain. The parenthesis describe the dimension of input and output tensor, it means (channels, height, width, camerqa view, number of frame).\relax }}{38}{figure.caption.41}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Overview of the fusion model, where the green blocks are 2d convolutional kernels with input channel, (width, height, depth, 2d padding), and output channel.\relax }}{38}{figure.caption.42}%
+\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Example drawing}}{33}{figure.caption.37}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Example drawing}}{39}{figure.caption.44}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Example plot}}{34}{figure.caption.38}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Example plot}}{40}{figure.caption.45}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Example listing}}{34}{figure.caption.39}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Example listing}}{40}{figure.caption.46}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Example drawing}}{35}{figure.caption.41}%
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Example drawing}}{41}{figure.caption.48}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Example plot}}{36}{figure.caption.42}%
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Example plot}}{42}{figure.caption.49}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.3}{\ignorespaces Example listing}}{36}{figure.caption.43}%
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Example listing}}{42}{figure.caption.50}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 

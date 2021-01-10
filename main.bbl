@@ -660,12 +660,12 @@
     \endentry
     \entry{wei2016cpm}{inproceedings}{}
       \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=eeb215d31998bd52613e3d32b708040c}{%
+        {{un=1,uniquepart=given,hash=eeb215d31998bd52613e3d32b708040c}{%
            family={Wei},
            familyi={W\bibinitperiod},
            given={Shih-En},
            giveni={S\bibinithyphendelim E\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
         {{un=0,uniquepart=base,hash=59349ca06ecce9c12e95c451d09e3dfe}{%
            family={Ramakrishna},
            familyi={R\bibinitperiod},
@@ -1376,6 +1376,76 @@
       \field{booktitle}{ICCV}
       \field{title}{Panoptic Studio: A Massively Multiview System for Social Motion Capture}
       \field{year}{2015}
+    \endentry
+    \entry{resnet50}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=4ce499f8943cac7cba0a73388d289a2e}{%
+           family={Shelhamer},
+           familyi={S\bibinitperiod},
+           given={Evan},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9081ecf20b1404015811f2fcea41c50c}{%
+           family={Long},
+           familyi={L\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=90180e1a30742e0d15328bfe637c2ef4}{%
+           family={Darrell},
+           familyi={D\bibinitperiod},
+           given={Trevor},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1f4817ab98b5fc9c1e438f6bf31551d5}
+      \strng{fullhash}{1f4817ab98b5fc9c1e438f6bf31551d5}
+      \strng{bibnamehash}{1f4817ab98b5fc9c1e438f6bf31551d5}
+      \strng{authorbibnamehash}{1f4817ab98b5fc9c1e438f6bf31551d5}
+      \strng{authornamehash}{1f4817ab98b5fc9c1e438f6bf31551d5}
+      \strng{authorfullhash}{1f4817ab98b5fc9c1e438f6bf31551d5}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{TPAMI}
+      \field{title}{Fully Convolutional Networks for Semantic Segmentation}
+      \field{year}{2017}
+    \endentry
+    \entry{xiao2018simple}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=cffd355887e938e9121d9a52295539d9}{%
+           family={Xiao},
+           familyi={X\bibinitperiod},
+           given={Bin},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2157efd9baa6a13ef46ed3d79a9bbede}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Haiping},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=3a3772ff910cd5647014fa1f8c9fb007}{%
+           family={Wei},
+           familyi={W\bibinitperiod},
+           given={Yichen},
+           giveni={Y\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{3d73db23d98e7b6c88c773f95ecc2e44}
+      \strng{fullhash}{3d73db23d98e7b6c88c773f95ecc2e44}
+      \strng{bibnamehash}{3d73db23d98e7b6c88c773f95ecc2e44}
+      \strng{authorbibnamehash}{3d73db23d98e7b6c88c773f95ecc2e44}
+      \strng{authornamehash}{3d73db23d98e7b6c88c773f95ecc2e44}
+      \strng{authorfullhash}{3d73db23d98e7b6c88c773f95ecc2e44}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{European Conference on Computer Vision (ECCV)}
+      \field{title}{Simple Baselines for Human Pose Estimation and Tracking}
+      \field{year}{2018}
     \endentry
   \enddatalist
   \missing{latex}

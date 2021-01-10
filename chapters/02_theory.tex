@@ -1,7 +1,7 @@
 % !TeX root = ../main.tex
 % Add the above to each chapter to make compiling the PDF easier in some editors.
 
-\chapter{Theoretical Backgrounds}\label{chapter:introduction}
+\chapter{Theoretical Backgrounds}\label{chapter:theoratical-background}
 \section{Camera Model}
 \subsection{Camera Intrinsic Matrix}
 A camera can be consider as a linear mapping from 3D spaces to a 2D images when we ignore the lens distortion. Let us denote a point in 3D space as $\mathbf{X_{cam}} \in \mathbb{R}^{4\times1}$; the subscript \textit{cam} mean the point is located in camera coordinate frame. The 3D point $\mathbf{X_{cam}}$ is imaged in a camera view, at $\mathbf{x = PX_{cam}}$, where $\mathbf{x} \in \mathbb{R}^{3\times1}$ represent 2D points in images and $\mathbf{P} \in \mathbb{R}^{3\times4}$ is a \textit{camera projection matrix}. Fig. \ref{fig:ch1-pinhole-camera-geometry} \cite{book:multivew-geometry} illustrate the geometry relationship from 3D spaces to image spaces. Note that, for the sake of simplicity, we use homogeneous coordinate and column vector to represent a point.
@@ -221,6 +221,7 @@ Residual Networks or ResNets, shown in Fig. \ref{fig:ch2-resnet-architecture}, a
 \end{figure}
          
 \subsection{3D U-Net}
+\label{ch3:3dunet}
 3D U-Net \cite{iek20163Dunet} is a network for volumetric segmentation that learns from sparsely annotated volumetric images. See Fig. \ref{fig:ch2-3dunet-architecture} The network is based on its predecessor that takes 2D images as input, U-Net \cite{2015unet}, but takes 3D volumes as input and processes them with corresponding 3D operations, in particular, 3D convolutions, 3D max pooling, and 3D up-convolutional layers. Using 3D kernels allow the network to learn dependecies across the volumetric structures in data. 
 
 The network is composed by two stages: contracting stage and a expansive stage (or an analysis and a synthesis path in \cite{iek20163Dunet}). In contracting stage, channel size of the input is double, but the width and height are shrink to half by mas pooling, leading the receptive field of output unit to grow fast. In expansive stage, $2\times2\times2$ transpose convolution kernels with stride two are used to double the dimiension before proceeding to the next layer. In addition, shortcut connections from layers of equal resolution in the contracting stage provide the essential high-resolution features to the synthesis stage.
