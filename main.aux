@@ -401,66 +401,66 @@
 \@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.1}Baseline Model}{34}{subsection.5.3.1}\protected@file@percent }
 \@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {5.2}{\ignorespaces Illustration of Epipolar Sampler $\mathit  {E}$. Image from a view is on the left and the joint heatmap is on the right side. Only nose joint is visualize (a) An occluded nose joint (yellow circle) has low score in view $\mathit  {v}$ (b) The corresponding epipolar line in the other view $\mathit  {v}'$. The same nose joint (yellow circle) is near the maximum (red circle) of all sampled points (blue circle) on the epipolar line (c) retrieved maximum for every point on view $\mathit  {v}$ (d) Output of Epipolar Sampler $\mathit  {E}$, by integrate 4 different views.\relax }}{35}{figure.caption.38}\protected@file@percent }
 \newlabel{fig:epipolar-sampler}{{5.2}{35}{Illustration of Epipolar Sampler $\mathit {E}$. Image from a view is on the left and the joint heatmap is on the right side. Only nose joint is visualize (a) An occluded nose joint (yellow circle) has low score in view $\mathit {v}$ (b) The corresponding epipolar line in the other view $\mathit {v}'$. The same nose joint (yellow circle) is near the maximum (red circle) of all sampled points (blue circle) on the epipolar line (c) retrieved maximum for every point on view $\mathit {v}$ (d) Output of Epipolar Sampler $\mathit {E}$, by integrate 4 different views.\relax }{figure.caption.38}{}}
-\BKM@entry{id=44,dest={73756273656374696F6E2E352E332E32},srcline={75}}{5669657720467573696F6E206D6F64656C}
+\BKM@entry{id=44,dest={73756273656374696F6E2E352E332E32},srcline={75}}{5669657720467573696F6E204D6F64656C}
 \BKM@entry{id=45,dest={73656374696F6E2E352E34},srcline={84}}{54656D706F72616C20467573696F6E204D6F64656C}
-\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {5.3}{\ignorespaces Overview of the baseline model, where the green blocks are 3d convolutional kernels with input channel, (width, height, depth, 2d padding), and output channel. Instead of concatenating, we use residual connections to reduce number of parameters. We also show tensor sizes in parentheses for a sample 5-camera-view input and prediction, where (55, 64, 64, 5) denotes 55 channels, 64 width, 64 height, and 5 different camera views.\relax }}{36}{figure.caption.39}\protected@file@percent }
-\newlabel{fig:view-baseline}{{5.3}{36}{Overview of the baseline model, where the green blocks are 3d convolutional kernels with input channel, (width, height, depth, 2d padding), and output channel. Instead of concatenating, we use residual connections to reduce number of parameters. We also show tensor sizes in parentheses for a sample 5-camera-view input and prediction, where (55, 64, 64, 5) denotes 55 channels, 64 width, 64 height, and 5 different camera views.\relax }{figure.caption.39}{}}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.2}View Fusion model}{36}{subsection.5.3.2}\protected@file@percent }
+\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {5.3}{\ignorespaces Overview of the baseline model, where the green blocks are 3d convolutional kernels with input channel, (width, height, depth, 2d padding), and output channel. Instead of concatenating, we use residual connections to reduce number of parameters. We also show tensor sizes in parentheses for a sample of input and prediction, where (55, 64, 64, 5) denotes 55 channels, 64 width, 64 height, and 5 different camera views.\relax }}{36}{figure.caption.39}\protected@file@percent }
+\newlabel{fig:view-baseline}{{5.3}{36}{Overview of the baseline model, where the green blocks are 3d convolutional kernels with input channel, (width, height, depth, 2d padding), and output channel. Instead of concatenating, we use residual connections to reduce number of parameters. We also show tensor sizes in parentheses for a sample of input and prediction, where (55, 64, 64, 5) denotes 55 channels, 64 width, 64 height, and 5 different camera views.\relax }{figure.caption.39}{}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.2}View Fusion Model}{36}{subsection.5.3.2}\protected@file@percent }
+\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {5.4}{\ignorespaces Overview of the fusion model, where the green blocks are 2d convolutional kernels. The with input channel, (width, height, 2d padding), and output channel.\relax }}{37}{figure.caption.40}\protected@file@percent }
+\newlabel{fig:view-baseline}{{5.4}{37}{Overview of the fusion model, where the green blocks are 2d convolutional kernels. The with input channel, (width, height, 2d padding), and output channel.\relax }{figure.caption.40}{}}
 \BKM@entry{id=46,dest={73656374696F6E2E352E35},srcline={86}}{53756D6D617279}
-\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {5.4}{\ignorespaces Overview of the fusion model, where the green blocks are 2d convolutional kernels with input channel, (width, height, 2d padding), and output channel.\relax }}{37}{figure.caption.40}\protected@file@percent }
-\newlabel{fig:view-baseline}{{5.4}{37}{Overview of the fusion model, where the green blocks are 2d convolutional kernels with input channel, (width, height, 2d padding), and output channel.\relax }{figure.caption.40}{}}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {5.4}Temporal Fusion Model}{37}{section.5.4}\protected@file@percent }
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {5.5}Summary}{37}{section.5.5}\protected@file@percent }
 \@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {5.5}{\ignorespaces Our complete framework covers both time and spatial domain. The parenthesis describe the dimension of input and output tensor, it means (channels, height, width, camera view, number of frame).\relax }}{38}{figure.caption.41}\protected@file@percent }
 \newlabel{fig:full-framework}{{5.5}{38}{Our complete framework covers both time and spatial domain. The parenthesis describe the dimension of input and output tensor, it means (channels, height, width, camera view, number of frame).\relax }{figure.caption.41}{}}
-\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {5.6}{\ignorespaces Overview of the fusion model, where the green blocks are 2d convolutional kernels with input channel, (width, height, depth, 2d padding), and output channel.\relax }}{38}{figure.caption.42}\protected@file@percent }
-\newlabel{fig:view-baseline}{{5.6}{38}{Overview of the fusion model, where the green blocks are 2d convolutional kernels with input channel, (width, height, depth, 2d padding), and output channel.\relax }{figure.caption.42}{}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {5.4}Temporal Fusion Model}{38}{section.5.4}\protected@file@percent }
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {5.5}Summary}{38}{section.5.5}\protected@file@percent }
+\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {5.6}{\ignorespaces Overview of the fusion model, where the green blocks are 2d convolutional kernels with input channel, (width, height, depth, 2d padding), and output channel.\relax }}{39}{figure.caption.42}\protected@file@percent }
+\newlabel{fig:view-baseline}{{5.6}{39}{Overview of the fusion model, where the green blocks are 2d convolutional kernels with input channel, (width, height, depth, 2d padding), and output channel.\relax }{figure.caption.42}{}}
 \BKM@entry{id=47,dest={636861707465722E36},srcline={4}}{4578706572696D656E7473}
 \BKM@entry{id=48,dest={73656374696F6E2E362E31},srcline={6}}{53656374696F6E}
 \abx@aux@cite{latex}
 \abx@aux@segm{0}{0}{latex}
 \BKM@entry{id=49,dest={73756273656374696F6E2E362E312E31},srcline={9}}{53756273656374696F6E}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {chapter}{\numberline {6}Experiments}{39}{chapter.6}\protected@file@percent }
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {chapter}{\numberline {6}Experiments}{40}{chapter.6}\protected@file@percent }
 \@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\defcounter {refsection}{0}\relax }\@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{lol}{\defcounter {refsection}{0}\relax }\@writefile{lol}{\addvspace {10\p@ }}
-\newlabel{chapter:introduction}{{6}{39}{Experiments}{chapter.6}{}}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {6.1}Section}{39}{section.6.1}\protected@file@percent }
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {6.1.1}Subsection}{39}{subsection.6.1.1}\protected@file@percent }
-\@writefile{lot}{\defcounter {refsection}{0}\relax }\@writefile{lot}{\contentsline {table}{\numberline {6.1}{\ignorespaces Example table}}{39}{table.caption.43}\protected@file@percent }
-\newlabel{tab:sample}{{6.1}{39}{Example table}{table.caption.43}{}}
-\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {6.1}{\ignorespaces Example drawing}}{39}{figure.caption.44}\protected@file@percent }
-\newlabel{fig:sample-drawing}{{6.1}{39}{Example drawing}{figure.caption.44}{}}
-\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {6.2}{\ignorespaces Example plot}}{40}{figure.caption.45}\protected@file@percent }
-\newlabel{fig:sample-plot}{{6.2}{40}{Example plot}{figure.caption.45}{}}
-\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {6.3}{\ignorespaces Example listing}}{40}{figure.caption.46}\protected@file@percent }
-\newlabel{fig:sample-listing}{{6.3}{40}{Example listing}{figure.caption.46}{}}
+\newlabel{chapter:introduction}{{6}{40}{Experiments}{chapter.6}{}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {6.1}Section}{40}{section.6.1}\protected@file@percent }
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {6.1.1}Subsection}{40}{subsection.6.1.1}\protected@file@percent }
+\@writefile{lot}{\defcounter {refsection}{0}\relax }\@writefile{lot}{\contentsline {table}{\numberline {6.1}{\ignorespaces Example table}}{40}{table.caption.43}\protected@file@percent }
+\newlabel{tab:sample}{{6.1}{40}{Example table}{table.caption.43}{}}
+\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {6.1}{\ignorespaces Example drawing}}{40}{figure.caption.44}\protected@file@percent }
+\newlabel{fig:sample-drawing}{{6.1}{40}{Example drawing}{figure.caption.44}{}}
+\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {6.2}{\ignorespaces Example plot}}{41}{figure.caption.45}\protected@file@percent }
+\newlabel{fig:sample-plot}{{6.2}{41}{Example plot}{figure.caption.45}{}}
+\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {6.3}{\ignorespaces Example listing}}{41}{figure.caption.46}\protected@file@percent }
+\newlabel{fig:sample-listing}{{6.3}{41}{Example listing}{figure.caption.46}{}}
 \BKM@entry{id=50,dest={636861707465722E37},srcline={4}}{436F6E636C7573696F6E}
 \BKM@entry{id=51,dest={73656374696F6E2E372E31},srcline={6}}{53656374696F6E}
 \abx@aux@cite{latex}
 \abx@aux@segm{0}{0}{latex}
 \BKM@entry{id=52,dest={73756273656374696F6E2E372E312E31},srcline={9}}{53756273656374696F6E}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {chapter}{\numberline {7}Conclusion}{41}{chapter.7}\protected@file@percent }
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {chapter}{\numberline {7}Conclusion}{42}{chapter.7}\protected@file@percent }
 \@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\defcounter {refsection}{0}\relax }\@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{lol}{\defcounter {refsection}{0}\relax }\@writefile{lol}{\addvspace {10\p@ }}
-\newlabel{chapter:introduction}{{7}{41}{Conclusion}{chapter.7}{}}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {7.1}Section}{41}{section.7.1}\protected@file@percent }
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {7.1.1}Subsection}{41}{subsection.7.1.1}\protected@file@percent }
-\@writefile{lot}{\defcounter {refsection}{0}\relax }\@writefile{lot}{\contentsline {table}{\numberline {7.1}{\ignorespaces Example table}}{41}{table.caption.47}\protected@file@percent }
-\newlabel{tab:sample}{{7.1}{41}{Example table}{table.caption.47}{}}
-\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {7.1}{\ignorespaces Example drawing}}{41}{figure.caption.48}\protected@file@percent }
-\newlabel{fig:sample-drawing}{{7.1}{41}{Example drawing}{figure.caption.48}{}}
-\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {7.2}{\ignorespaces Example plot}}{42}{figure.caption.49}\protected@file@percent }
-\newlabel{fig:sample-plot}{{7.2}{42}{Example plot}{figure.caption.49}{}}
-\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {7.3}{\ignorespaces Example listing}}{42}{figure.caption.50}\protected@file@percent }
-\newlabel{fig:sample-listing}{{7.3}{42}{Example listing}{figure.caption.50}{}}
+\newlabel{chapter:introduction}{{7}{42}{Conclusion}{chapter.7}{}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {7.1}Section}{42}{section.7.1}\protected@file@percent }
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {7.1.1}Subsection}{42}{subsection.7.1.1}\protected@file@percent }
+\@writefile{lot}{\defcounter {refsection}{0}\relax }\@writefile{lot}{\contentsline {table}{\numberline {7.1}{\ignorespaces Example table}}{42}{table.caption.47}\protected@file@percent }
+\newlabel{tab:sample}{{7.1}{42}{Example table}{table.caption.47}{}}
+\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {7.1}{\ignorespaces Example drawing}}{42}{figure.caption.48}\protected@file@percent }
+\newlabel{fig:sample-drawing}{{7.1}{42}{Example drawing}{figure.caption.48}{}}
+\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {7.2}{\ignorespaces Example plot}}{43}{figure.caption.49}\protected@file@percent }
+\newlabel{fig:sample-plot}{{7.2}{43}{Example plot}{figure.caption.49}{}}
+\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {7.3}{\ignorespaces Example listing}}{43}{figure.caption.50}\protected@file@percent }
+\newlabel{fig:sample-listing}{{7.3}{43}{Example listing}{figure.caption.50}{}}
 \BKM@entry{id=53,dest={636861707465722A2E3531},srcline={53}}{4C697374206F662046696775726573}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {chapter}{\nonumberline List of Figures}{43}{chapter*.51}\protected@file@percent }
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {chapter}{\nonumberline List of Figures}{44}{chapter*.51}\protected@file@percent }
 \BKM@entry{id=54,dest={636861707465722A2E3532},srcline={54}}{4C697374206F66205461626C6573}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {chapter}{\nonumberline List of Tables}{47}{chapter*.52}\protected@file@percent }
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {chapter}{\nonumberline List of Tables}{48}{chapter*.52}\protected@file@percent }
 \BKM@entry{id=55,dest={636861707465722A2E3533},srcline={56}}{4269626C696F677261706879}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {chapter}{\nonumberline Bibliography}{48}{chapter*.53}\protected@file@percent }
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {chapter}{\nonumberline Bibliography}{49}{chapter*.53}\protected@file@percent }
 \@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\defcounter {refsection}{0}\relax }\@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{lol}{\defcounter {refsection}{0}\relax }\@writefile{lol}{\addvspace {10\p@ }}
@@ -506,4 +506,4 @@
 \@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\providecommand\tocbasic@end@toc@file{}\tocbasic@end@toc@file}
 \@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\providecommand\tocbasic@end@toc@file{}\tocbasic@end@toc@file}
 \@writefile{lot}{\defcounter {refsection}{0}\relax }\@writefile{lot}{\providecommand\tocbasic@end@toc@file{}\tocbasic@end@toc@file}
-\gdef \@abspage@last{57}
+\gdef \@abspage@last{58}

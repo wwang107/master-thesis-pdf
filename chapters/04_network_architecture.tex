@@ -16,7 +16,7 @@ where
 	1,& \text{otherwise}\\
 \end{cases}
 \end{gather}
-We set $\lambda$ as 0.5 empirically, since we observe better quality in prediction.¸
+We set $\lambda$ to 0.5 empirically, since we observe better quality in prediction.¸
 
 
 \begin{table}[htpb]
@@ -63,28 +63,28 @@ We can use $\mathit{E}$ for every pixel on the reference view and create a heatm
 	\label{fig:epipolar-sampler}
 \end{figure}
 \section{View Fusion}
-The architecture of view fusion network is based on UNet. We create two models for comparison: (1) A baseline model, where the convolution layer is compose by 3D convolutional kernels and the input are heatmaps from multiple views (2) a fusion model, where the convolutional layer is compose by 2D convolutional kernels and the input is heatmap $\mathbf{H}_{ep}$ gernerated by epipolar sampler $\mathit{E}$. 
+The architecture of view fusion network is based on UNet. For comparison of the view fusion network, we create (1) a baseline model, where the convolution layer is compose by 3D convolutional kernels and the input are heatmaps from multiple views (2) a fusion network, where the convolutional layer is compose by 2D convolutional kernels and the input is a heatmap $\mathbf{H}_{ep}$ gernerated by epipolar sampler $\mathit{E}$ . 
 \subsection{Baseline Model}
-In the baseline model, the input of the model is heatmaps from 5 different views and the output is the same. The key components in the model are the 3D convolutional kernels that are fully connect with these 5 views. We would like to compare the model with the view fusion network that has use the output of epipolar sampler $\mathbf{H}_{ep}$, shown in Fig. \ref{fig:epipolar-sampler} (d), which aggregates multi-view information. The model has UNet-like overall architecture, but a ResNet-like convolutional block.
+In the baseline model, the input of the model is 3D heatmaps from 5 different views and the predict heatmaps for these 5 views. The convolutional kernels are 3D, where the first two dimension are 3-by-3 but the third dimension is fully connect with the heatmaps from 5 different views. We would like to compare the model with the view fusion network that has use the output of epipolar sampler $\mathbf{H}_{ep}$, shown in Fig. \ref{fig:epipolar-sampler} (d), which aggregates multi-view information within a single view. The model has UNet-like overall architecture, but a ResNet-like convolutional block.
 \begin{figure}
 	\centering
 	\includegraphics[width=1.0\columnwidth]{figures/ch4/baseline.png}
-	\caption{Overview of the baseline model, where the green blocks are 3d convolutional kernels with input channel, (width, height, depth, 2d padding), and output channel. Instead of concatenating, we use residual connections to reduce number of parameters. We also show tensor sizes in parentheses for a sample 5-camera-view input and prediction, where (55, 64, 64, 5) denotes 55 channels, 64 width, 64 height, and 5 different camera views.}
+	\caption{Overview of the baseline model, where the green blocks are 3d convolutional kernels with input channel, (width, height, depth, 2d padding), and output channel. Instead of concatenating, we use residual connections to reduce number of parameters. We also show tensor sizes in parentheses for a sample of input and prediction, where (55, 64, 64, 5) denotes 55 channels, 64 width, 64 height, and 5 different camera views.}
 	\label{fig:view-baseline}
 \end{figure}
-\subsection{View Fusion model}
-The view fusion model takes heatmaps $\mathbf{H}_{ep}$ and concatenating with heatmap $\mathbf{H}^{ref}$ from reference view, thus the number of channels at the input is 110 (channels from reference view 55 plus 55 channels from epipolar sampler). In additon, we keep the number of parameters the between baseline and fusion model. Although fusion model can have more layer, it only use 2d convolution kernels. 
+\subsection{View Fusion Model}
+The view fusion model takes heatmap $\mathbf{H}_{ep}$ and concatenating with heatmap $\mathbf{H}^{ref}$ from reference view, thus the number of channels at the input is 110 (channels from reference view 55 plus 55 channels from epipolar sampler). In additon, the number of parameters between baseline and fusion model is the same. Although fusion model has more layer, it only use 2d convolution kernels. 
 \begin{figure}
 	\centering
 	\includegraphics[width=1.0\columnwidth]{figures/ch4/view-fusion.png}
-	\caption{Overview of the fusion model, where the green blocks are 2d convolutional kernels with input channel, (width, height, 2d padding), and output channel.}
+	\caption{Overview of the fusion model, where the green blocks are 2d convolutional kernels. The  with input channel, (width, height, 2d padding), and output channel.}
 	\label{fig:view-baseline}
 \end{figure}
 
 \section{Temporal Fusion Model}
-In temporal fusion model, we use 3d convolutional kernels as baseline model but the third dimension operates on time domain. The time resolution decrease by convolution operation in the contractive path. In the expansive path, we feed the output of contractive path to the input of convolution layer, since the contractive path has more high definition information in time domain.
+In temporal fusion model, we use 3d convolutional kernels like baseline model but the third dimension operates on time domain. The time resolution decrease because we do not use padding at time domain during convolution operation in the contractive path. In the expansive path, we feed the output of contractive path to the input of convolution layer, since the contractive path has higher definition in time domain.
 \section{Summary}
-Our full framework is composed of 3 models: first, a 2D joint estimation backbone, a epiploar sampler, a fusion model and a temporal fusion model. The framework, shown in Fig. \ref{fig:full-framework} capture both time and spatial information from multi-view video.
+Our full framework is composed of 3 models: first, a 2D joint estimation backbone, an epiploar sampler, a fusion model and a temporal fusion model. The framework, shown in Fig. \ref{fig:full-framework} capture both time and spatial information from multi-view video.
 \begin{figure}
 	\centering
 	\includegraphics[width=0.7\columnwidth]{figures/ch4/full-model.png}
