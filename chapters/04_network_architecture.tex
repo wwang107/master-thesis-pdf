@@ -84,7 +84,7 @@ The view fusion model takes heatmap $\mathbf{H}_{ep}$ and concatenating with hea
 \section{Temporal Fusion Model}
 In temporal fusion model, we use 3d convolutional kernels like baseline model but the third dimension operates on time domain. The time resolution decrease because we do not use padding at time domain during convolution operation in the contractive path. In the expansive path, we feed the output of contractive path to the input of convolution layer, since the contractive path has higher definition in time domain.
 \section{Summary}
-Our full framework is composed of 3 models: first, a 2D joint estimation backbone, an epiploar sampler, a fusion model and a temporal fusion model. The framework, shown in Fig. \ref{fig:full-framework} capture both time and spatial information from multi-view video.
+Our full framework is composed of 3 models: a 2D joint estimation backbone, an epiploar sampler, a fusion model and a temporal fusion model. All the source views are merge at the epipolar sampler and refine at the view fusion model. Then, all the frames are merge into one at the temporal fusion model. The framework, shown in Fig. \ref{fig:full-framework} capture both time and spatial information from multi-view video.
 \begin{figure}
 	\centering
 	\includegraphics[width=0.7\columnwidth]{figures/ch4/full-model.png}
@@ -96,4 +96,10 @@ Our full framework is composed of 3 models: first, a 2D joint estimation backbon
 	\includegraphics[width=1.0\columnwidth]{figures/ch4/temporal-fusion.png}
 	\caption{Overview of the fusion model, where the green blocks are 2d convolutional kernels with input channel, (width, height, depth, 2d padding), and output channel.}
 	\label{fig:view-baseline}
+\end{figure}
+\begin{figure}
+	\centering
+	\includegraphics[width=1.0\columnwidth]{figures/ch4/full-framework-heatmap.png}
+	\caption{Predicted sample from the start (a) to the end (e) of our framework. (a) The output of 2D joint backbone at different frame and across 5 different views, one reference view and 4 other source views. (b) The output of epipolar sampler. All the pixels on reference view sample from 4 different source views using epipolar geometry. (c) The output of fusion net that takes the epipolar heatmap at (b) as input. (d) The output of temporal fusion net that merge multiple frames into one.}
+	\label{fig:full-framework-heatmap}
 \end{figure}

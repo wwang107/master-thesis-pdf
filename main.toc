@@ -99,22 +99,20 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.5}Summary}{38}{section.5.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Experiments}{40}{chapter.6}%
+\contentsline {chapter}{\numberline {6}Experiments}{41}{chapter.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Section}{40}{section.6.1}%
+\contentsline {section}{\numberline {6.1}Quantitative Results}{41}{section.6.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.1.1}Subsection}{40}{subsection.6.1.1}%
+\contentsline {section}{\numberline {6.2}Qualitative Results}{41}{section.6.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.3}Discussion}{41}{section.6.3}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {7}Conclusion}{42}{chapter.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.1}Section}{42}{section.7.1}%
+\contentsline {chapter}{\nonumberline List of Figures}{43}{chapter*.44}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.1.1}Subsection}{42}{subsection.7.1.1}%
+\contentsline {chapter}{\nonumberline List of Tables}{47}{chapter*.45}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline List of Figures}{44}{chapter*.51}%
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline List of Tables}{48}{chapter*.52}%
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Bibliography}{49}{chapter*.53}%
+\contentsline {chapter}{\nonumberline Bibliography}{48}{chapter*.46}%
 \defcounter {refsection}{0}\relax 
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
