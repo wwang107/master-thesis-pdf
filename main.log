@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.12.8)  14 JAN 2021 15:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.12.8)  21 JAN 2021 18:01
 entering extended mode
 **./main.tex
 (main.tex
@@ -1406,6 +1406,9 @@ LaTeX Warning: Label `fig:view-baseline' multiply defined.
 LaTeX Warning: Label `chapter:introduction' multiply defined.
 
 
+LaTeX Warning: Label `Tab1' multiply defined.
+
+
 LaTeX Warning: Label `chapter:introduction' multiply defined.
 
 )
@@ -1937,18 +1940,18 @@ chapter 6.
 ) (chapters/08_conclusions.tex [41
 
 
-]
+] [42]
 chapter 7.
 LaTeX Info: Symbol \textasciiacute not provided by
             font family pplx in TS1 encoding.
             Default family used instead on input line 9.
-) [42
+) [43
 
 
 ]
 Package tocbasic Info: character protrusion at lof deactivated on input line 53
 .
- (main.lof [43
+ (main.lof [44
 
 
 ]
@@ -1957,7 +1960,7 @@ Overfull \hbox (21.69006pt too wide) in paragraph at lines 40--40
 s in [[]9[]]. (a) 2D correspondence 
  []
 
-[44]
+[45]
 Overfull \hbox (13.76997pt too wide) in paragraph at lines 64--64
  [][] [][]\T1/pplx/m/n/10.95 (-20) Overview of the baseline model, where the gr
 een blocks are 3d convolutional 
@@ -1975,18 +1978,18 @@ Overfull \hbox (4.9706pt too wide) in paragraph at lines 70--70
 n blocks are 2d convolutional 
  []
 
-[45])
+[46])
 \tf@lof=\write7
 \openout7 = `main.lof'.
 
- [46]
+ [47]
 Package tocbasic Info: character protrusion at lot deactivated on input line 54
 .
  (main.lot)
 \tf@lot=\write8
 \openout8 = `main.lot'.
 
- [47
+ [48
 
 
 ]
@@ -1994,7 +1997,7 @@ chapter without number
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/pplx/m/sc/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
-[48
+[49
 
 
 ]
@@ -2009,33 +2012,25 @@ Overfull \hbox (13.10434pt too wide) in paragraph at lines 56--56
  via semidefinite programming,
  []
 
-[49]
+[50]
 No complaints by nag.
-[50] (main.aux)
+[51] (main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: There were multiply-defined labels.
-
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                main
-(biblatex)                and rerun LaTeX afterwards.
 
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 45558 strings out of 481630
- 1026292 string characters out of 2918851
- 2149252 words of memory out of 3000000
- 60995 multiletter control sequences out of 15000+200000
- 476268 words of font info for 337 fonts, out of 3000000 for 9000
+ 45575 strings out of 481630
+ 1026460 string characters out of 2918851
+ 2149357 words of memory out of 3000000
+ 60997 multiletter control sequences out of 15000+200000
+ 476898 words of font info for 346 fonts, out of 3000000 for 9000
  2 hyphenation exceptions out of 8191
  112i,17n,113p,10601b,2969s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/home/wei/.miktex/texmfs/install/fonts/enc/dvips/base/8r.enc} </home/wei/.mi
@@ -2058,9 +2053,9 @@ me/wei/.miktex/texmfs/install/fonts/type1/urw/palatino/uplb8a.pfb></home/wei/.m
 iktex/texmfs/install/fonts/type1/urw/palatino/uplbi8a.pfb></home/wei/.miktex/te
 xmfs/install/fonts/type1/urw/palatino/uplr8a.pfb></home/wei/.miktex/texmfs/inst
 all/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (57 pages, 15606142 bytes).
+Output written on main.pdf (58 pages, 15612993 bytes).
 PDF statistics:
- 1255 PDF objects out of 1440 (max. 8388607)
- 243 named destinations out of 1000 (max. 500000)
+ 1264 PDF objects out of 1440 (max. 8388607)
+ 246 named destinations out of 1000 (max. 500000)
  46158 words of extra memory for PDF output out of 51595 (max. 10000000)
 
