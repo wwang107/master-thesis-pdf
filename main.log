@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.12.8)  21 JAN 2021 18:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.12.8)  21 JAN 2021 18:06
 entering extended mode
 **./main.tex
 (main.tex
@@ -2028,7 +2028,7 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Here is how much of TeX's memory you used:
  45575 strings out of 481630
  1026460 string characters out of 2918851
- 2149357 words of memory out of 3000000
+ 2149406 words of memory out of 3000000
  60997 multiletter control sequences out of 15000+200000
  476898 words of font info for 346 fonts, out of 3000000 for 9000
  2 hyphenation exceptions out of 8191
@@ -2053,7 +2053,7 @@ me/wei/.miktex/texmfs/install/fonts/type1/urw/palatino/uplb8a.pfb></home/wei/.m
 iktex/texmfs/install/fonts/type1/urw/palatino/uplbi8a.pfb></home/wei/.miktex/te
 xmfs/install/fonts/type1/urw/palatino/uplr8a.pfb></home/wei/.miktex/texmfs/inst
 all/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (58 pages, 15612993 bytes).
+Output written on main.pdf (58 pages, 15612962 bytes).
 PDF statistics:
  1264 PDF objects out of 1440 (max. 8388607)
  246 named destinations out of 1000 (max. 500000)
