@@ -2,8 +2,4 @@
 % Add the above to each chapter to make compiling the PDF easier in some editors.
 
 \chapter{Conclusion}\label{chapter:introduction}
-In this work, we propose a simple end-to-end fully convolutional framework that let a 2D joint estimator aware of multiple views. To train a 2D joint estimator without using any bounding box of person, we propose a simple yet effective weighted loss using the binary threshold method on groundtruth heatmaps to balance positive and negative examples. Moreover, we propose a method to let a 2D joint estimator aware of other views using epipolar geometry.
-
-Our work came across some caveats when trying to aggregate multi-view information based on heatmaps and can be a great reference to other work within the same topic.
-
-´
+In this work, we propose a simple end-to-end fully convolutional framework that let a 2D joint estimator aware of multiple views. We aggregare 2d joints estimations from multiple views into a single reference view using epipolar geometry. Furthermore, a network based view fusion module to learn from the heatmap that aggregate multiple view, making the 2D joint estimator aware of multiple view. In addition, we incorporate a network fuse heatmaps from different frames into one, so we might be able to benefit from temporal information. Lastly, we propose a greedy algorithm that solve association problem in multi-person 3D pose estimation.

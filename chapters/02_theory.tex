@@ -140,6 +140,42 @@ As illustrated in Fig. \ref{fig:ch1-epipolar-line}, assuming the camera centers 
 
 $\mathbf{x}$'s corresponding point in the second view: $\mathbf{x'}$, should lie on the epipolar line: $\mathbf{I'}^T\mathbf{x'} = 0$.
 
+\subsection{Triangulation}
+To estimate the 3D location, we use the paired corresponding 2D points between two views and the camera projection matrices of each view to estimate the 3D location of a paired 2D points. The method is called \textbf{triangulation}.
+
+Taking Fig. \ref{fig:ch1-epipolar-line} as an example, we have a 3D points $\mathbf{X}$ being projected to a paired of corresponding points, $\mathbf{x}$ and $\mathbf{x'}$, by camera projection matrices $\mathbf{P}$ and $\mathbf{P'}$. Note that we are using homogeneous representation.The projections from $\mathbf{X}$ to $\mathbf{x}$ can be describe as
+\begin{gather}
+	\mathbf{x} = \mathbf{P}\mathbf{X}
+	\label{eq:3d-to-2d-projection}
+\end{gather}
+
+Convert (\ref{eq:3d-to-2d-projection}) from homogeneous to inhomogeneous equation (making the homogenous term equal to 1 in $\mathbf{x}$ and $\mathbf{X}$), we get
+\begin{gather}
+\mathbf{x} = \alpha\mathbf{P}\mathbf{X}
+\end{gather}
+Then, the homogeneous scale factor is eliminated by a cross product $\mathbf{x} \times (\mathbf{P}\mathbf{X}) = 0$ because $\mathbf{x}$ and $\mathbf{PX}$ represent the same ray. Writing this out gives
+\begin{equation}
+	\begin{gathered}
+	x(\mathbf{p}^{3^T}\mathbf{X}) -(\mathbf{p}^{1^T}\mathbf{X}) = 0 \\
+	y(\mathbf{p}^{3^T}\mathbf{X}) -(\mathbf{p}^{2^T}\mathbf{X}) = 0 \\
+	x(\mathbf{p}^{2^T}\mathbf{X}) -y(\mathbf{p}^{1^T}\mathbf{X}) = 0
+	\end{gathered}
+\end{equation}
+where two equations are linear independent and we have 3 unknown entries in $\mathbf{X}$
+An equation of the form  $\mathbf{AX}$ = 0 can then be composed, with
+\begin{gather}\label{eq:dlt}
+\mathbf{A}
+=
+\begin{bmatrix}
+x(\mathbf{p}^{3^T} -\mathbf{p}^{1^T}) \\
+y(\mathbf{p}^{3^T} -\mathbf{p}^{2^T}) \\
+x'(\mathbf{p'}^{3^T} -\mathbf{p'}^{2^T}) \\
+y'(\mathbf{p'}^{3^T} -\mathbf{p'´}^{2^T})
+\end{bmatrix}
+\end{gather}
+Combining these equations we get an over determined homogeneous system of linear equations that we can solve with SVD.
+
+
 
 \section{Supervised Learning with Deep Convolutional Networks} 
     \subsection{Deep Convolutional Networks}

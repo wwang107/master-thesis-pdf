@@ -11,21 +11,25 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {4.1}{\ignorespaces COCO keypoints and limb definition}}{25}{table.caption.28}%
+\contentsline {table}{\numberline {4.1}{\ignorespaces COCO keypoints and limb definition}}{26}{table.caption.28}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {4.2}{\ignorespaces COCO keypoints and limb definition}}{28}{table.caption.31}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces COCO keypoints and limb definition}}{29}{table.caption.31}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {4.3}{\ignorespaces Augmentations used in training}}{30}{table.caption.33}%
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {5.1}{\ignorespaces Structure of deconvolution head}}{33}{table.caption.36}%
+\contentsline {table}{\numberline {4.3}{\ignorespaces Augmentations used in training}}{31}{table.caption.33}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {6.1}{\ignorespaces 2D evaluation based on PCKh@0.5 with 5 views input.\relax }}{41}{table.caption.44}%
+\contentsline {table}{\numberline {5.1}{\ignorespaces Structure of deconvolution head}}{34}{table.caption.36}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {6.2}{\ignorespaces 3D evaluation based on PCKh@0.5 with 3, 4 and 5 views input.\relax }}{42}{table.caption.45}%
+\contentsline {table}{\numberline {5.2}{\ignorespaces 3D Pose Limb Definiotn}}{41}{table.caption.42}%
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {6.1}{\ignorespaces 2D evaluation based on PCKh@0.5 with 5 views input.\relax }}{45}{table.caption.46}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {6.2}{\ignorespaces 3D evaluation based on PCKh@0.5 and with 5 views input.\relax }}{45}{table.caption.47}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {6.3}{\ignorespaces 3D evaluation based on PCKh@0.5 with 3, 4 and 5 views input.\relax }}{46}{table.caption.48}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
